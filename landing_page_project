@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favourite Marvel Character</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marvel:wght@400;700&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background: linear-gradient(
+          180.3deg,
+          rgb(221, 221, 221) 5.5%,
+          rgb(110, 136, 161) 90.2%
+        );
+      }
+
+      .wrap {
+        position: relative;
+      }
+
+      .wrap:before {
+        content: " ";
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.08;
+        background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/504/original/marvel-wallpaper.jpeg?1646327548");
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        background-size: cover;
+      }
+
+      h1 {
+        text-align: center;
+        color: #2b2024;
+        font-family: "Permanent Marker", cursive;
+        font-size: 34px;
+      }
+
+      .box {
+        display: block;
+        margin: 0 auto;
+        width: auto;
+        height: auto;
+        padding: 8px;
+        border: solid whitesmoke;
+        border-color: black;
+        position: relative;
+      }
+      .box2 {
+        border-width: 3px 3px 5px 5px;
+        border-radius: 10px;
+        transform: rotate(-2deg);
+        position: relative;
+      }
+
+      h2 {
+        text-align: center;
+        color: #a80038;
+        font-size: 24px;
+        font-family: "Permanent Marker", cursive;
+      }
+
+      .spidey {
+        display: block;
+        margin: 0 auto;
+        max-width: 35%;
+        border-radius: 50%;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      p {
+        font-family: "Marvel", sans-serif;
+        font-size: 20px;
+      }
+
+      h4 {
+        text-align: center;
+        font-family: "Permanent Marker", cursive;
+        font-size: 20px;
+      }
+
+      button {
+        display: block;
+        margin: 5px auto;
+        background: #113f67;
+        color: #a2a8d3;
+        font-size: 18px;
+        font-family: "Marvel", sans-serif;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        opacity: 0.8;
+        cursor: pointer;
+        color: #113f67;
+        background: #a2a8d3;
+      }
+
+      .content {
+        display: block;
+        margin: 0 auto;
+        padding: 19px 40px;
+        position: relative;
+      }
+      .findOutMore {
+        text-align: center;
+      }
+      .learn-more {
+        margin-top: 10px;
+        color: #a80038;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      .learn-more:hover {
+        text-decoration: underline;
+      }
+
+      .marvelFolder {
+        margin: 5px;
+        padding: 5px;
+      }
+
+      .footer {
+        text-align: center;
+        font-size: 16px;
+        font-family: "Marvel", sans-serif;
+      }
+
+      .footer-links {
+        margin-top: 10px;
+        color: #a80038;
+        text-decoration: none;
+        font-size: 16px;
+      }
+
+      .footer-links:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="content">
+        <h1>
+          On today's episode of:<br />
+          Who's your favourite Marvel character?
+        </h1>
+        <h2>
+          <div class="box box2">
+            Mine is none other than... your Friendly Neighborhood Spider-Man!
+          </div>
+        </h2>
+        <img
+          class="spidey"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/502/original/Amazing_Spider-Man_-_Profile_Pic.png?1646327469"
+          alt="Spider-Man MCU"
+        />
+        <p>
+          Spider-Man is a superhero appearing in American comic books published
+          by Marvel Comics. Created by writer-editor Stan Lee and artist Steve
+          Ditko, he <b>first appeared</b> in the anthology comic book
+          <b>Amazing Fantasy #15 (August 1962)</b> in the Silver Age of Comic
+          Books. He has since been featured in movies, television shows, video
+          games, and plays. <br />
+          <br />
+          Spider-Man is the alias of <b>Peter Parker</b>, an orphan raised by
+          his Aunt May and Uncle Ben in New York City after his parents Richard
+          and Mary Parker died in a plane crash. In his origin story, he gets
+          <b>spider-related abilities</b> from a bite from a radioactive spider;
+          these include clinging to surfaces, superhuman strength and agility,
+          and detecting danger with his <b>"spider-sense."</b> He also builds
+          wrist-mounted "web-shooter" devices that shoot artificial spider webs
+          of his own design. <br /><br />
+          Spider-Man is one of the most popular and commercially successful
+          superheroes. He has appeared in countless forms of media, including
+          several animated and live action television series, syndicated
+          newspaper comic strips, and in multiple series of films. The character
+          was first portrayed in live action by Danny Seagren in Spidey Super
+          Stories, a The Electric Company skit which ran from 1974 to 1977.
+
+          <br /><br />In films, Spider-Man has been portrayed by actors Tobey
+          Maguire, Andrew Garfield, and in the Marvel Cinematic Universe by Tom
+          Holland. He was voiced by Chris Pine and Jake Johnson in the animated
+          film Spider-Man: Into the Spider-Verse. Reeve Carney starred
+          originally as Spider-Man in the 2010 Broadway musical Spider-Man: Turn
+          Off the Dark. Spider-Man has been well received as a superhero and
+          comic book character, and he is often ranked as
+          <b
+            >one of the most popular and iconic comic book characters of all
+            time</b
+          >
+          and one of the most popular characters in all fiction.
+        </p>
+
+        <hr />
+
+        <p class="findOutMore">
+          Learn more about Spider-Man on the
+          <a
+            href="https://marvel.fandom.com/wiki/Spider-Man"
+            target="_blank"
+            class="learn-more"
+          >
+            Marvel Database
+          </a>
+          or on the
+          <a
+            href="https://marvelcinematicuniverse.fandom.com/wiki/Amazing_Spider-Man"
+            target="_blank"
+            class="learn-more"
+          >
+            Marvel Cinematic Universe Fandom
+          </a>
+          <br />
+          Or click the folder below to find out more about the other Marvel
+          characters...
+          <br />
+          <a href="https://www.marvel.com/characters" target="_blank">
+            <img
+              class="marvelFolder"
+              alt="all marvel characters"
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/028/503/original/marvel-movies-folder-pictures-7.png?1646327514"
+              width="100px"
+              height="100px"
+            />
+          </a>
+        </p>
+        <hr />
+        <h4>
+          How about you? Have you found one <b>OR</b> do you have a favourite
+          already? 🙂
+        </h4>
+        <button class="tellMeButton">Let me know here! 🙌🏼</button>
+        <p class="footer">
+          This page was built by Marvel enthusiast
+          <a
+            href="https://www.linkedin.com/in/sophs/"
+            target="_blank"
+            class="footer-links"
+            >Sophia Lee</a
+          >
+          👩🏻‍💻🕸 <br />Border art credits to
+          <a
+            href="https://twitter.com/mike2112mckone/status/1153054667783360512?lang=ar-x-fm"
+            target="_blank"
+            class="footer-links"
+            >@Mike2112McKone</a
+          >
+          <br />Icon credits to
+          <a
+            href="https://www.freeiconspng.com/img/47906"
+            target="_blank"
+            class="footer-links"
+            >Marvel Movies Folder Pictures</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <script>
+      function letMeKnow() {
+        let name = prompt("Hi there! What is your name?");
+        let favourite = prompt("Who is your favourite Marvel character?");
+        let h4 = document.querySelector("h4");
+
+        if (name.length <= 0) 
+        {
+          h4.innerHTML =
+            "I didn't quite catch your name. Could you type it again please? ☺️";
+        } else {
+
+          if (favourite.length <= 0) 
+          {
+          h4.innerHTML =
+            "I didn't quite catch your character's name. Could you type it again please? ☺️";
+          }
+        
+         else {
+          h4.innerHTML =
+            "✨ Wow " +
+            name +
+            "! ✨ " +
+            favourite +
+            " is a great choice! 😃 Thanks for dropping by! 🥳";
+
+        }
+     
+      }}
+      let button = document.querySelector("button");
+
+      button.addEventListener("click", letMeKnow);
+    </script>
+  </body>
+</html>
